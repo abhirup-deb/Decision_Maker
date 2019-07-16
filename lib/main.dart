@@ -22,7 +22,7 @@ class DMkr extends StatefulWidget {
 }
 
 class _DMkrState extends State<DMkr> {
-  int ballno = 1 ;
+  int ballno= 1 ;
   @override
   Widget build(BuildContext context) {
     return Center(
