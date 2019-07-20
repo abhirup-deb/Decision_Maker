@@ -1,4 +1,4 @@
-package com.example.decision_maker;
+package co.appbrewery.magic8ball;
 
 import android.os.Bundle;
 import io.flutter.app.FlutterActivity;

@@ -22,7 +22,7 @@ class DMkr extends StatefulWidget {
 }
 
 class _DMkrState extends State<DMkr> {
-  int ballno= 1 ;
+  int ballno = 1 ;
   @override
   Widget build(BuildContext context) {
     return Center(
@@ -34,7 +34,7 @@ class _DMkrState extends State<DMkr> {
                 ballno = Random().nextInt(4)+1;
               });
             },
-              child: Image.asset('images/ball$ballno'),
+              child: Image.asset('images/ball$ballno.png'),
             ),
           ),
         ],
